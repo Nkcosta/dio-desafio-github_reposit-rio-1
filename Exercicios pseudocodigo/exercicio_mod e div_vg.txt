@@ -1,0 +1,16 @@
+Algoritmo "MOD e DIV"
+//Pseudocódigo no Visual G
+Var
+   X: inteiro
+
+Inicio
+Escreval ("Informe um número")
+leia (x)
+Se X MOD 2 = 0 entao
+  Escreval ("numero par")
+Senao
+  Escreval ("numero impar")
+fimse
+   
+
+Fimalgoritmo

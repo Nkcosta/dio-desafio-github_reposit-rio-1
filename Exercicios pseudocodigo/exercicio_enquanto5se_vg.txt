@@ -1,0 +1,45 @@
+Algoritmo    "Enquanto"
+//Exercicio pseudocodigo no Visual G
+Var
+
+  qdeEntrevistados, maisNovo, maisVelho, idadeInformada: inteiro
+  porcentagemMenorIdade, mediaIdade, qdeMenorIdade, somaDasIdades: real
+
+Inicio
+  maisNovo <- 9999
+  maisVelho <- 0
+  qdeEntrevistados <- 0
+  qdeMenorIdade <- 0
+  
+  Enquanto qdeEntrevistados < 5 faca
+           Escreval ("Favor, informe sua idade")
+           leia (idadeInformada)
+           
+  Se idadeInformada >= maisVelho entao
+  maisVelho <- idadeInformada
+  fimse
+
+  Se idadeInformada <= maisNovo entao
+  maisNovo <- idadeInformada
+  fimse
+  
+  Se idadeInformada < 18 entao
+  qdeMenorIdade <-  qdeMenorIdade + 1
+  fimse
+  
+  somaDasIdades <- somaDasIdades + idadeInformada
+  qdeEntrevistados <- qdeEntrevistados + 1
+  
+  fimenquanto
+  
+  Escreval ("mais novo", maisNovo)
+  Escreval ("mais velho", maisVelho)
+  
+  porcentagemMenorIdade <- (qdeMenorIdade / 5)*100
+  Escreval ("Porcentagem menor idade", porcentagemMenorIdade, "%")
+  
+  mediaIdade <- somaDasIdades / 5
+  Escreval ("media das idades", mediaIdade)
+  
+  
+Fimalgoritmo
