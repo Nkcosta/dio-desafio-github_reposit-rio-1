@@ -1,5 +1,5 @@
-# Desafio de projeto sobre git/github da DIO
-Repositório criado para o desafio de projeto.
+# Desafio de projeto da DIO (Git/Github)
+Repositório para Exercícios de pseudocódigos
 
 links úteis: 
 [Sintaxe_basica_markdown](https://www.markdownguide.org/)
